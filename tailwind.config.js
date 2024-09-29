@@ -14,7 +14,8 @@ export default {
         }
       },
       backgroundImage:{
-        'header': "url('src/assets/header.jpg')"
+        'header': "url('src/assets/header.jpg')",
+        'black_bg': "url('src/assets/black-bg.jpg')"
       },
       fontFamily:{
         'tinos': "Tinos",

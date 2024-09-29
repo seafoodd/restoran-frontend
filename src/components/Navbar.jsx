@@ -5,8 +5,8 @@ const Navbar = () => {
   const pathname = useLocation();
 
   return (
-    <div className="py-[25px] flex items-center text-white place-content-between px-[166px] fixed top-0 w-[100%] z-50 bg-black/50">
-      <a href="#home">
+    <div className="py-[25px] flex items-center text-white justify-between px-[166px] fixed top-0 w-[100%] z-50 bg-black/50">
+      <a href="#">
         <img src="src/assets/logo.png" alt="logo"/>
       </a>
 
@@ -29,7 +29,7 @@ const Navbar = () => {
         </div>
 
         <a
-          href="#"
+          href="/cart"
           className="h-[50px] border-r-[1px] w-8 relative transition-colors duration-200 hover:text-color-1"
         >
           <img
